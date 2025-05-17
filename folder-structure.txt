@@ -1,0 +1,24 @@
+photojournal/
+├── public/
+├── src/
+│   ├── assets/
+│   │   ├── hero.jpg
+│   │   ├── about.jpg
+│   │   └── gallery/
+│   │       ├── img1.jpg
+│   │       └── img2.jpg
+│   ├── components/
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Gallery.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Footer.jsx
+│   │   └── Navbar.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles/
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
