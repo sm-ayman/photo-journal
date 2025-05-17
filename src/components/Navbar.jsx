@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="container">
+    <div className="">
       <header className="bg-light py-3">
         <nav className="container d-flex justify-content-center align-items-center">
           <ul className="nav">
