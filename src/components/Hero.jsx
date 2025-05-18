@@ -3,29 +3,33 @@ import heroData from "../data/heroData";
 
 const Hero = () => {
   return (
-    <div className="container my-5">
-      <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
-        <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
-          <h1 className="display-4 fw-bold lh-1 text-body-emphasis">
+    <div className="my-5">
+      <div className="row text-center justify-content-center">
+        {/* Image Section */}
+        <div className="col-lg-8 d-flex justify-content-center">
+          <div className="photo-grid-wrapper position-relative">
+            <img
+              src={heroData.image}
+              alt="photo"
+              className="img-fluid w-100"
+            />
+            <div className="grid-overlay"></div>
+          </div>
+        </div>
+        {/* Text Section */}
+        <div className="col-lg-8 mb-4">
+          <h3 className="display-4 fw-bold lh-1 text-info-emphasis">
             {heroData.heading}
-          </h1>
-          <p className="lead">{heroData.description}</p>
-          <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+          </h3>
+          <p className="lead text-justify">{heroData.description}</p>
+          <div className="d-grid gap-2 d-md-flex justify-content-center mb-4">
             <button
               type="button"
-              className="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
+              className="btn btn-success btn-md px-4 fw-bold rounded-5"
             >
               Explore
             </button>
           </div>
-        </div>
-        <div className="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-          <img
-            className="rounded img-fluid"
-            src={heroData.image}
-            alt="hero"
-            width="720"
-          />
         </div>
       </div>
     </div>
