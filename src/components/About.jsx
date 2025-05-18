@@ -3,7 +3,7 @@ import aboutData from "../data/aboutData.js";
 
 const About = () => {
   return (
-    <div className="">
+    <div id="about" >
       <div className="container my-5 ">
         <h2 className="mb-4 fw-bold text-center text-info-emphasis">
           {aboutData.title}

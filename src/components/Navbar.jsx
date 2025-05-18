@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-light py-3">
+    <nav className="navbar navbar-expand-lg bg-light py-3 sticky-top">
       <div className="container">
         <a className="navbar-brand fw-bold text-dark" href="#">
           PhotoJournal
@@ -28,22 +28,22 @@ const Navbar = () => {
         >
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a href="#" className="nav-link text-dark fw-medium px-3">
-                Gallery
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#" className="nav-link text-dark fw-medium px-3">
-                Projects
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#" className="nav-link text-dark fw-medium px-3">
+              <a href="#about" className="nav-link text-dark fw-medium px-3">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link text-dark fw-medium px-3">
+              <a href="#gallery" className="nav-link text-dark fw-medium px-3">
+                Gallery
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#projects" className="nav-link text-dark fw-medium px-3">
+                Projects
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#contact" className="nav-link text-dark fw-medium px-3">
                 Contact
               </a>
             </li>

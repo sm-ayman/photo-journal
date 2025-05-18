@@ -3,15 +3,15 @@ import heroData from "../data/heroData";
 
 const Hero = () => {
   return (
-    <div className="my-5">
+    <div className="container my-5">
       <div className="row text-center justify-content-center">
         {/* Image Section */}
-        <div className="col-lg-8 d-flex justify-content-center">
+        <div className="col-lg- d-flex justify-content-center">
           <div className="photo-grid-wrapper position-relative">
             <img
               src={heroData.image}
-              alt="photo"
-              className="img-fluid w-100"
+              alt="hero"
+              className="img-fluid w-75"
             />
             <div className="grid-overlay"></div>
           </div>
