@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import "bootswatch/dist/brite/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./index.css";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Gallery />
       <Projects />
+      <Contact />
       <hr className="border border-light w-100" />
       <Footer />
     </div>

@@ -33,7 +33,13 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-      <p className="fs-5">Created By <a href="https://sm-ayman.netlify.app/" className="text-info-emphasis">Sultan Md. Ayman</a> | All Rights Reserved | © 2025</p>
+      <p className="fs-5">
+        Created By{" "}
+        <a href="https://sm-ayman.netlify.app/" className="text-info-emphasis">
+          Sultan Md. Ayman
+        </a>{" "}
+        | All Rights Reserved | © 2025
+      </p>
     </div>
   );
 };
