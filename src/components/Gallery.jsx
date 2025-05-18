@@ -1,48 +1,25 @@
 import React from "react";
+import galleryData from "../data/galleryData";
 
 const Gallery = () => {
   return (
     <div className="container py-5" id="gallery">
-      <h2 className="text-center mb-5 fw-bold text-info-emphasis">Through the Lens</h2>
+      <h2 className="text-center fw-bold text-info-emphasis">
+        Through the Lens
+      </h2>
+      <p className="text-center text-muted fs-5 mb-5">
+        The World, One Frame at a Time
+      </p>
       <div className="row">
-        <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-            className="w-100 shadow rounded-4 mb-4"
-            alt="Boat on Calm Water"
-          />
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-            className="w-100 shadow rounded-4 mb-4"
-            alt="Wintry Mountain Landscape"
-          />
-        </div>
-
-        <div className="col-lg-4 mb-4 mb-lg-0">
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-            className="w-100 shadow rounded-4 mb-4"
-            alt="Mountains in the Clouds"
-          />
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-            className="w-100 shadow rounded-4 mb-4"
-            alt="Boat on Calm Water"
-          />
-        </div>
-
-        <div className="col-lg-4 mb-4 mb-lg-0">
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-            className="w-100 shadow rounded-4 mb-4"
-            alt="Waves at Sea"
-          />
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-            className="w-100 shadow rounded-4 mb-4"
-            alt="Yosemite National Park"
-          />
-        </div>
+        {galleryData.map((item) => (
+          <div key={item.id} className="col-lg-4 col-md-6 mb-4">
+            <img
+              src={item.src}
+              className="w-100 shadow rounded-3"
+              alt={item.alt}
+            />
+          </div>
+        ))}
       </div>
     </div>
   );

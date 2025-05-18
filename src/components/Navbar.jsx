@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-light py-3 sticky-top">
       <div className="container">
         <a className="navbar-brand fw-bold text-dark" href="#">
-          PhotoJournal
+          「 PhotoJournal 」
         </a>
 
         {/* Hamburger Toggle Button */}
