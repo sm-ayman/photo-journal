@@ -23,8 +23,39 @@
 - **HTML5 & CSS3**
 - **Custom Image Assets**
 
----
-<pre lang="markdown"><code> ``` photojournal/ ├── public/ ├── src/ │ ├── assets/ │ │ ├── hero.jpg │ │ ├── about.jpg │ │ ├── gallery/ │ │ └── projects/ │ ├── components/ │ │ ├── Hero.jsx │ │ ├── About.jsx │ │ ├── Gallery.jsx │ │ ├── Projects.jsx │ │ ├── Contact.jsx │ │ ├── Footer.jsx │ │ └── Navbar.jsx │ ├── data/ │ │ ├── galleryData.js │ │ ├── heroData.js │ │ ├── aboutData.js │ │ └── projectsData.js │ ├── styles/ │ │ └── projects.css │ ├── App.jsx │ ├── main.jsx ├── index.html ├── package.json ├── vite.config.js └── README.md ``` </code></pre>
+
+```
+photojournal/
+├── public/
+├── src/
+│   ├── assets/
+│   │   ├── hero.jpg
+│   │   ├── about.jpg
+│   │   ├── gallery/
+│   │   └── projects/
+│   ├── components/
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Gallery.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Footer.jsx
+│   │   └── Navbar.jsx
+│   ├── data/
+│   │   ├── galleryData.js
+│   │   ├── heroData.js
+│   │   ├── aboutData.js
+│   │   └── projectsData.js
+│   ├── styles/
+│   │   └── projects.css
+│   ├── App.jsx
+│   ├── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
 
 ## 🚀 Getting Started
 
