@@ -1,12 +1,42 @@
-# React + Vite
+# 📸 The Photojournal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**The Photojournal** is a responsive and visually immersive photography portfolio website built with **React** and **Bootstrap 5**. Designed to showcase powerful visuals and storytelling through images, this platform provides a magazine-style layout for galleries, visual stories, and contact interactions.
 
-Currently, two official plugins are available:
+🌐 [Live Demo](https://the-photojournal.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔍 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📷 **Gallery Section** – A masonry-style responsive grid to highlight curated photographs.
+- 📰 **Visual Stories (Projects)** – Magazine-inspired layout featuring photo stories with captions.
+- 📩 **Contact Form** – A simple and clean contact section for collaboration and feedback.
+- 💡 **Clean UI/UX** – Emphasis on visual hierarchy and typography.
+- 📱 **Mobile-Responsive** – Optimized for all screen sizes.
+
+---
+
+## 🛠 Tech Stack
+
+- **React.js**
+- **Bootstrap 5**
+- **HTML5 & CSS3**
+- **Custom Image Assets**
+
+---
+
+## 🖼 Screenshots
+
+| Home Page                        | Projects Page                      |
+|----------------------------------|-------------------------------------|
+| ![Home](screenshots/home.png)    | ![Projects](screenshots/projects.png) |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/the-photojournal.git
+cd the-photojournal
