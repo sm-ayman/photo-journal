@@ -4,9 +4,19 @@ photojournal/
 │   ├── assets/
 │   │   ├── hero.jpg
 │   │   ├── about.jpg
-│   │   └── gallery/
-│   │       ├── img1.jpg
-│   │       └── img2.jpg
+│   │   ├── gallery/
+│   │   │   ├── img1.jpg
+│   │   │   └── img2.jpg
+│   │   └── projects/
+│   │       ├── img_1.jpg
+│   │       ├── img_2.jpg
+│   │       ├── img_3.jpg
+│   │       ├── img_4.jpg
+│   │       ├── img_5.jpg
+│   │       ├── img_6.jpg
+│   │       ├── img_7.jpg
+│   │       ├── img_8.jpg
+│   │       └── img_9.jpg
 │   ├── components/
 │   │   ├── Hero.jsx
 │   │   ├── About.jsx
@@ -15,9 +25,12 @@ photojournal/
 │   │   ├── Contact.jsx
 │   │   ├── Footer.jsx
 │   │   └── Navbar.jsx
+│   ├── data/
+│   │   └── projectsData.js
+│   ├── styles/
+│   │   └── projects.css
 │   ├── App.jsx
 │   ├── main.jsx
-│   └── styles/
 ├── index.html
 ├── package.json
 ├── vite.config.js
