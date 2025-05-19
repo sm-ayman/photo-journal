@@ -4,12 +4,7 @@ import "../styles/projects.css";
 
 const Projects = () => {
   return (
-    <div
-      className="container"
-      data-aos="fade"
-      data-aos-delay="500"
-      id="projects"
-    >
+    <div className="container" id="projects">
       <div className="text-center mb-5">
         <h2 className="fw-bold text-info-emphasis">Visual Stories</h2>
         <p className="text-muted fs-5">Stories that matter!</p>
@@ -22,7 +17,15 @@ const Projects = () => {
                 <h2 className="mb-3">{title}</h2>
                 <p className="small">{description}</p>
               </div>
-              <img src={imgSrc} alt={title} className="img-fluid" />
+              <img
+                src={imgSrc}
+                alt={title}
+                className="img-fluid"
+                data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0"
+              />
             </div>
           </div>
         ))}

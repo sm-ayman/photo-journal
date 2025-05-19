@@ -14,7 +14,16 @@
   <script type="module" src="/src/main.jsx"></script>
   <script src="https://unpkg.com/aos/dist/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+      duration: 800,
+      once: false,
+      mirror: true,
+      easing: 'ease-in-out',
+    });
+
+    window.addEventListener('load', () => {
+      AOS.refresh();
+    });
   </script>
 </body>
 

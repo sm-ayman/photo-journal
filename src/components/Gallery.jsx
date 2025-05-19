@@ -17,6 +17,9 @@ const Gallery = () => {
               src={item.src}
               className="w-100 shadow rounded-3"
               alt={item.alt}
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
             />
           </div>
         ))}

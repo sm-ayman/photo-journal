@@ -11,14 +11,19 @@ const Hero = () => {
             className="photo-grid-wrapper position-relative"
             data-aos="fade-up"
             data-aos-anchor-placement="top-center"
-            data-aos-duration="400"
+            data-aos-duration="500"
           >
             <img src={heroData.image} alt="hero" className="img-fluid w-75" />
             <div className="grid-overlay"></div>
           </div>
         </div>
         {/* Text Section */}
-        <div className="col-lg-8 mb-4">
+        <div
+          className="col-lg-8 mb-4"
+          data-aos="fade-down"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="500"
+        >
           <h3 className="display-4 fw-bold lh-1 text-info-emphasis">
             {heroData.heading}
           </h3>
