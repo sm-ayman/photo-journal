@@ -57,8 +57,20 @@ photojournal/
 
 ## 🚀 Getting Started
 
-### 1. Clone the repo
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/your-username/photojournal.git
 cd photojournal
+npm install
+npm run dev
+
+📷 Credits
+All images used are placeholders. Replace them with your own to personalize the site.
+
+🙋‍♂️ Author
+Sultan Md. Ayman
+📧 Contact Me: sultanmdayman@gmail.com
