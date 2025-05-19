@@ -24,6 +24,14 @@
 - **Custom Image Assets**
 
 
+## 🖼 Screenshots
+
+| Home Page                        | Projects Page                      |
+|----------------------------------|-------------------------------------|
+| ![Home](<img width="630" alt="homepage" src="https://github.com/user-attachments/assets/0caa7f5b-f31e-4ed2-91b7-c74a55ddb2df" />
+)    | ![Projects](<img width="628" alt="projects" src="https://github.com/user-attachments/assets/4bf52890-0a6e-4599-adf0-a895d668e376" />
+) |
+
 ```
 photojournal/
 ├── public/
@@ -55,7 +63,6 @@ photojournal/
 ├── vite.config.js
 └── README.md
 ```
-
 
 ## 🚀 Getting Started
 
