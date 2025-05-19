@@ -1,0 +1,35 @@
+.image-wrap-2 {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-wrap-2 img {
+  display: block;
+  width: 100%;
+  filter: grayscale(100%);
+  transition: filter 0.4s ease-in-out;
+}
+
+.image-wrap-2:hover img {
+  filter: grayscale(0%);
+}
+
+.image-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2; /* Make sure it's above the image */
+  background: rgba(0, 0, 0, 0.5); /* Optional: darker overlay for readability */
+  color: #fff;
+  padding: 1rem;
+  transition: opacity 0.4s ease;
+  opacity: 1;
+}
+.image-info {
+  opacity: 0;
+}
+
+.image-wrap-2:hover .image-info {
+  opacity: 1;
+}

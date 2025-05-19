@@ -7,12 +7,13 @@ const Hero = () => {
       <div className="row text-center justify-content-center">
         {/* Image Section */}
         <div className="col-lg- d-flex justify-content-center">
-          <div className="photo-grid-wrapper position-relative">
-            <img
-              src={heroData.image}
-              alt="hero"
-              className="img-fluid w-75"
-            />
+          <div
+            className="photo-grid-wrapper position-relative"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="400"
+          >
+            <img src={heroData.image} alt="hero" className="img-fluid w-75" />
             <div className="grid-overlay"></div>
           </div>
         </div>

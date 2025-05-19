@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-light py-3 sticky-top">
+    <nav className="navbar navbar-expand-lg bg-success py-2 sticky-top">
       <div className="container">
         <a className="navbar-brand fw-bold text-dark" href="#">
           「 PhotoJournal 」
